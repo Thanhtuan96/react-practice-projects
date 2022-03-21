@@ -29,6 +29,7 @@ export const AddTransaction = () => {
                             setText(e.target.value);
                         }}
                         placeholder='Enter text....'
+                        value={text}
                     />
                 </div>
                 <div className='form-control'>
@@ -42,6 +43,7 @@ export const AddTransaction = () => {
                             setAmount(e.target.value);
                         }}
                         placeholder='Enter amount....'
+                        value={amount}
                     />
                 </div>
                 <button className='btn'>Add Transaction</button>

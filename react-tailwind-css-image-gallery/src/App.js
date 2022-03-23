@@ -37,7 +37,7 @@ function App() {
                                 <ImageCard image={img} key={img.id} />
                             ))
                         ) : (
-                            <h1>It seemed nothings here</h1>
+                            <h1>It seemed nothings here fadsfasdfasdf</h1>
                         )}
                     </div>
                 </>
